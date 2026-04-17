@@ -21,8 +21,9 @@
     },
     "extra": {
       "eas": {
-        "projectId": "YOUR_EAS_PROJECT_ID"
+        "projectId": "0bad0e3a-daf1-44f6-bba7-236b4e7353d3"
       }
-    }
+    },
+    "owner": "carlaberg"
   }
 }
