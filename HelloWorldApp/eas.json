@@ -26,8 +26,8 @@
     "production": {
       "ios": {
         "appleId": "callesbrevbox@hotmail.com",
-        "ascAppId": "YOUR_APP_STORE_CONNECT_APP_ID",
-        "appleTeamId": "YOUR_APPLE_TEAM_ID"
+        "ascAppId": "6763636552",
+        "appleTeamId": "B57S7A2KMZ"
       }
     }
   }
