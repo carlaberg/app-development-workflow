@@ -3,6 +3,13 @@ name: EAS Build & Submit to TestFlight
 on:
   push:
     branches: [main]
+  workflow_dispatch:
+    inputs:
+      build_branch:
+        description: 'Branch, tag, or SHA to build (leave empty to use selected branch)'
+        required: false
+        type: string
+        default: ''
 
 jobs:
   build-and-submit:
@@ -14,6 +21,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.build_branch || github.ref }}
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
