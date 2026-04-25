@@ -132,3 +132,5 @@ HelloWorldApp/
 6. **Testers notified** → friends and family receive the build in TestFlight
 
 See `backlog.md` for the current list of ideas and upcoming features.
+
+Tesing new build
