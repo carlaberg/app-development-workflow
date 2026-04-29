@@ -11,7 +11,7 @@
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.carlaberg.thehelloworldapp",
+      "bundleIdentifier": "com.carlaberg.helloworldappv3",
       "buildNumber": "2",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
@@ -21,7 +21,7 @@
       "adaptiveIcon": {
         "backgroundColor": "#ffffff"
       },
-      "package": "com.carlaberg.thehelloworldapp"
+      "package": "com.carlaberg.helloworldappv3"
     },
     "web": {
       "bundler": "metro"
